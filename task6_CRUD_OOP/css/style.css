@@ -1,0 +1,47 @@
+:root
+{
+    --bs-primary: #1abcbc;
+    --bs-secondary: #2c3e50;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --font-size:16px;
+}
+
+.container
+{
+    width:500px;
+    height:500px;
+    background-color: var(--bs-light); 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.main-form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .submit
+{
+    background-color: var(--bs-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form input
+{
+    width:250px;
+    height:30px;
+    margin:5px;
+}
+
+select
+{
+    width:30%;
+    height:50px;
+}
